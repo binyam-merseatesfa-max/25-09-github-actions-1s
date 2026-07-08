@@ -8,4 +8,6 @@ jobs:
         name: Hello world job
         steps:
             - name: Hello
-              run: echo "Hello World"
+              run: |
+                echo "Hello World"
+                date
